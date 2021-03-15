@@ -1,0 +1,484 @@
+body
+{
+  background-color: black;
+  }
+  .fond{
+    background-color: #6E6E6E;
+    height: 300px;
+    border: 3px solid white;
+   }
+   .fond2{
+    background-color: black;
+    height:500px;
+    border: 3px solid white;
+   }
+   .fond3{
+    background-color: black;
+    position: absolute;
+    top: 55.55em;
+    width: 1881px ;
+    height:400px;
+    z-index: 150;
+    border: 3px solid white;
+    border-left: 3px solid white;
+   }
+  .fond4{
+    background-color: black;
+    position: absolute;
+    top: 80.75em;
+    width: 1881px;
+    height:400px;
+    border: 3px solid white;
+  }
+   img{
+    position: absolute; 
+    top: 0.7em;
+    left: 4em;
+   }
+   
+  
+.menu-nav ul li.btn1 a{
+  font-family: Bahnschrift;
+  color: blue;
+  text-decoration: none;
+  background-color: white;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 60px;
+  font-size: 20px;
+  box-shadow: 2.5px  2.5px blue;
+  position: absolute;
+  top: 1.5em;
+  left: 73em;
+  transition: 0.25s;
+  }
+  .menu-nav ul li.btn2 a{
+  font-family: Bahnschrift;
+  color: blue;
+  text-decoration: none;
+  background-color: white;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 60px;
+  font-size: 20px;
+  box-shadow: 2.5px  2.5px blue;
+  position: absolute;
+  top: 1.5em;
+  left: 77.5em;
+  transition: 0.25s;
+
+  }
+  .menu-nav ul li.btn3 a{
+  font-family: Bahnschrift;
+  color: blue;
+  text-decoration: none;
+  background-color: white;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 60px;
+  font-size: 20px;
+  box-shadow: 2.5px  2.5px blue;
+  position: absolute;
+  top: 1.5em;
+  left: 82em;
+  transition: 0.25s;
+  }
+
+.menu-nav ul li.btn1:hover a{
+  color:white;
+  background-color: blue;
+  transition: 0.5s;
+}
+.menu-nav ul li.btn2:hover a{
+  color:white;
+  background-color: blue;
+  transition: 0.5s;
+}
+.menu-nav ul li.btn3:hover a{
+  color:white;
+  background-color: blue;
+  transition: 0.5s;
+}
+
+.video1 {
+  width: 400px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  position: absolute;
+  top: 25.5em;
+  left: 30em;
+  margin: 10px auto 0 auto;
+  border: 4px solid white; 
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  transition: 0.5s;
+}
+.video1:hover{
+width: 410px;
+transition: 0.5s;
+border: 6px solid #0174DF;
+}
+.video2 {
+  width: 400px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  position: absolute;
+  top: 25em;
+  left: 80em;
+  margin: 10px auto 0 auto;
+  border: 4px solid white; 
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  transition: 0.5s;
+}
+.video2:hover{
+width: 410px;
+transition: 0.5s;
+border: 6px solid #0174DF;
+}
+ h2{
+  font-family: Bahnschrift SemiCondensed;
+  color: white;
+  font-size: 75px;
+
+  text-shadow: 1px 1px 1px #A4A4A4;
+  text-shadow: 1px 2px 1px #A4A4A4;
+  text-shadow: 1px 3px 1px #A4A4A4;
+  
+  position: absolute;
+  top: 1em;
+  left: 9.75em;
+}
+a.offre {
+  font-family: Bahnschrift;
+  text-decoration: none;
+  color: #E6E6E6;
+  background:rgba(255,255,255,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  border-radius: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  top: 12em;
+  left:34em; 
+  font-size:25px;
+  transition: 0.25s;
+}
+a.offre:hover {
+  box-shadow: 0 10px 30px rgba(0,0,0,.5);
+  transition: 0.25s
+  background-color:black;
+}
+h4{
+  font-family: Bahnschrift;
+  color: black;
+  position: absolute;
+  top: 15em;
+  left:58em; 
+  font-size:15px;
+
+}
+.ordi{
+  position: absolute;
+  top: 14em;
+  left: 62em;
+}
+h5{
+  font-family: Bahnschrift;
+  color: black;
+  position: absolute;
+  top: 16em;
+  left:58em; 
+  font-size:15px;
+}
+
+.naruto{
+  position: absolute;
+  left: 40em;
+  top:24.5em;
+}
+
+.musiqueattente {
+  outline: none;
+  position: absolute;
+  left: 110em;
+  top: 55em;
+  width: 150px;
+}
+
+.show-btn,.container{
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  
+}
+.show-btn{
+  background: white;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: blue;
+  cursor: pointer;
+}
+input[type="checkbox"]{
+  display: none;
+}
+.container .close-btn{
+  color: white;
+  position: absolute;
+  right: 20px;
+}
+.container{
+  z-index: 100;
+  display: none;
+  background: #424242;
+  border: 2px solid white;
+  width: 410px;
+  padding: 30px;
+}
+#show:checked ~ .container{
+display: block;
+
+}
+.container .text{
+  font-family: Bahnschrift;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+.container form{
+  margin-top: -20px;
+}
+.container form .data{
+  height: 45px;
+  width: 100%;
+  margin: 40px 0;
+}
+form .data label{
+  font-size: 18px;
+}
+form .data input{
+  height: 100%;
+  width: 100%;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 3px solid #0B4C5F;
+  transition: 0.25s;
+}
+form .data input:focus{
+  border-color: #0B0B61;
+  border-bottom-width: 5px;
+  border-radius: 20px;
+  outline: none;
+  transition: 0.25s;
+}
+form .forgot-pass{
+  margin-top:-2px;
+}
+form .forgot-pass a{
+  color: #00FFFF;
+  text-decoration: none;
+  font-family: Bahnschrift;
+}
+form .forgot-pass a:hover{
+  text-decoration: underline;
+}
+form .btn{
+  margin: 30px 0;
+  height: 45px;
+  width: 100%;
+}
+form .btn .inner{
+  height: 100%
+  width:300%;
+  position: absolute;
+  left: -100%;
+  transition: all 0.25s;
+}
+
+form .btn button{
+  font-family: Bahnschrift;
+  color: white;
+  height: 100%;
+  width: 100%;
+  background: #2E2E2E;
+  border: none;
+  font-size: 18px;
+  font-weight: 350;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+label{
+  font-family: Bahnschrift;
+  }
+  label.show-btn{
+    position: absolute;
+    top: 2.25em;
+    left: 24em;
+    border-radius: 10px;
+    transition: 0.25s
+  }
+  label.show-btn:hover{
+    color: white;
+    background-color: blue;
+    transition: 0.25s;
+  }
+  form .signup-link{
+    font-family: Bahnschrift;
+    text-align: center;
+  }
+  form .signup-link a{
+    font-family: Bahnschrift;
+    color: #00FFFF;
+    text-decoration: none;
+  }
+  form .signup-link a:hover{
+    text-decoration: underline;
+  }
+  h3{
+    font-family: Bahnschrift;
+    color: white;
+    position: absolute;
+    top: 15em;
+    left:6em;
+    font-size: 200%;
+  }
+  .paranaruto{
+    position: absolute;
+    top:27.5em;
+    left: 10em;
+    font-size: 120%;
+    color: #3ADF00;
+    font-family: Bahnschrift;
+  }
+  .paranaruto1{
+    position: absolute;
+    top:35em;
+    left: 12em;
+    font-size: 100%;
+    color: white;
+    font-family: Bahnschrift;
+  }
+  a.epinaruto{
+    text-decoration: none;
+    position: absolute;
+    top:41em;
+    left: 12em;
+    font-size: 100%;
+    background:#D8D8D8;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: blue;
+    font-family: Bahnschrift;
+    transition: 0.3s;
+  }
+  a.epinaruto:hover{
+    background: blue;
+    color: white;
+    transition: 0.3s;
+  }
+  .the100{
+    z-index: 200;
+    position: absolute;
+    top: 55.75em;
+    left: 16em;
+  }
+  h6{
+    font-family: Bahnschrift;
+    color: white;
+    position: absolute;
+    top: 28em;
+    left:32em;
+    font-size: 200%;
+    z-index: 210;
+  }
+  .parathe100{
+    position: absolute;
+    top:51.5em;
+    left: 59em;
+    font-size: 120%;
+    color: #3ADF00;
+    font-family: Bahnschrift;
+    z-index: 210;
+  }
+  .parathe1001{
+    position: absolute;
+    top:64em;
+    left: 57em;
+    font-size: 100%;
+    color: white;
+    font-family: Bahnschrift;
+    z-index: 210;
+    text-align: right;
+  }
+  a.epithe100{
+    text-decoration: none;
+    position: absolute;
+    top:70em;
+    left: 69em;
+    font-size: 100%;
+    background:#D8D8D8;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: blue;
+    font-family: Bahnschrift;
+    transition: 0.3s;
+    z-index: 210;
+  }
+  a.epithe100:hover{
+    background: blue;
+    color: white;
+    transition: 0.3s;
+  }
+  h5{
+    font-family: Bahnschrift;
+    color: white;
+    position: absolute;
+    top: 41.5em;
+    left:6em;
+    font-size: 200%;
+    z-index: 220;
+  }
+  .parainter{
+    position: absolute;
+    top:73em;
+    left: 10em;
+    font-size: 120%;
+    color: #3ADF00;
+    font-family: Bahnschrift;
+    z-index: 220;
+  }
+  .parainter1{
+    position: absolute;
+    top:90em;
+    left: 12em;
+    font-size: 100%;
+    color: white;
+    font-family: Bahnschrift;
+    z-index: 220;
+  }
+  a.filminter{
+    text-decoration: none;
+    position: absolute;
+    top:96em;
+    left: 12em;
+    font-size: 100%;
+    background:#D8D8D8;
+    border-radius: 15px;
+    padding: 10px 20px;
+    color: blue;
+    font-family: Bahnschrift;
+    transition: 0.3s;
+    z-index: 220;
+  }
+  a.filminter:hover{
+    background: blue;
+    color: white;
+    transition: 0.3s;
+  }
+  .inter{
+    position: absolute;
+    top: 81em;
+    left: 60em;
+    z-index: 220;
+  }
